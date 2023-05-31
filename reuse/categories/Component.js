@@ -13,6 +13,14 @@ sap.ui.define(
 					manifest: "json",
 					interfaces: [library.IAsyncContentCreation],
 				},
+				eventMappings: {
+					productsComponent: [
+						{
+							name: "toProduct",
+							forward: "toProduct",
+						},
+					],
+				},
 			}
 		)
 	}
