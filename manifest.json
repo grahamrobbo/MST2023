@@ -1,0 +1,32 @@
+{
+	"_version": "1.21.0",
+	"sap.app": {
+		"id": "sap.ui.core.sample.RoutingNestedComponent",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"dataSources": {
+			"mainService": {
+				"uri": "/myservice/V2/Northwind.svc",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		}
+	},
+	"sap.ui5": {
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "sap.ui.core.sample.RoutingNestedComponent.i18n.i18n",
+					"supportedLocales": [""],
+					"fallbackLocale": ""
+				}
+			}
+		}
+	}
+}
