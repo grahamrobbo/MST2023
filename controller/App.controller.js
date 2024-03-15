@@ -61,9 +61,24 @@ sap.ui.define(
 					this.getOwnerComponent()
 						.getRouter()
 						.navTo(
-							"products",
+							"suppliers",
 							{},
-							{ products: { route: "detail", parameters: { id: "1" } } }
+							{
+								suppliers: {
+									route: "detail",
+									parameters: {
+										id: 1,
+									},
+									componentTargetInfo: {
+										products: {
+											route: "list",
+											parameters: {
+												basepath: "%2FSuppliers(1)",
+											},
+										},
+									},
+								},
+							}
 						)
 				},
 			}
