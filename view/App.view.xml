@@ -31,7 +31,7 @@
 				</tnt:NavigationList>
 				<tnt:footer>
 					<tnt:NavigationList>
-						<tnt:NavigationListItem text="UI5 T-Shirt"
+						<tnt:NavigationListItem text="UI5 Awesome Man Co"
 							icon="sap-icon://sap-ui5"
 							select="fireTestRouting" />
 					</tnt:NavigationList>
